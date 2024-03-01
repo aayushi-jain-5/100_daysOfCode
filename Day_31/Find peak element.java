@@ -1,4 +1,8 @@
-int n = arr.size(); // Size of array
+import java.util.ArrayList;
+public class Solution {
+    public static int findPeakElement(ArrayList<Integer> arr) {
+        // Write your code here.
+        int n = arr.size(); // Size of array
 
         // Edge cases:
         if (n == 1) return 0;
@@ -22,4 +26,6 @@ int n = arr.size(); // Size of array
         }
         // Dummy return statement
         return -1;
+    
     }
+}
